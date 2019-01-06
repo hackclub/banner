@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner is valid 1`] = `
+<a
+  href="https://hackclub.com/"
+  target="_blank"
+>
+  <img
+    alt="Hack Club"
+    src="https://hackclub.com/banners/2019.svg"
+    style={
+      Object {
+        "border": 0,
+        "left": 0,
+        "position": "absolute",
+        "top": "10px",
+        "width": "230px",
+        "zIndex": "999",
+      }
+    }
+  />
+</a>
+`;
