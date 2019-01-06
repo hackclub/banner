@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/@hackclub/banner.svg)](https://www.npmjs.com/package/@hackclub/banner) [![Build Status](https://travis-ci.org/hackclub/banner.svg?branch=master)](https://travis-ci.org/hackclub/banner)
 
-![Banner example](https://hackclub.com/banners/2019.svg)
+<img alt="Banner example" width="230px" src="https://hackclub.com/banners/2019.svg">
 
 ## Install
 
