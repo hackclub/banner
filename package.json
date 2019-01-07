@@ -18,11 +18,9 @@
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "dev": "x0 docs -op 8080",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "yarn run build",
-    "predeploy": "yarn prepare && x0 build docs"
+    "prepare": "yarn run build"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
@@ -30,7 +28,6 @@
     "react-dom": "^16.0.0"
   },
   "devDependencies": {
-    "@compositor/x0": "^6.0.7",
     "babel-core": "^6.26.3",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.7.0",
@@ -51,10 +48,5 @@
   "files": [
     "README.md",
     "dist"
-  ],
-  "x0": {
-    "static": true,
-    "outDir": "site",
-    "title": "@hackclub/banner"
-  }
+  ]
 }

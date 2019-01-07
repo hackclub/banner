@@ -1,10 +1,10 @@
 # `@hackclub/banner`
 
-### React component for adding a [Hack Club](https://hackclub.com) banner to your club site
+> React component for adding a [Hack Club](https://hackclub.com) banner to your club site
 
 [![npm](https://img.shields.io/npm/v/@hackclub/banner.svg)](https://www.npmjs.com/package/@hackclub/banner) [![Build Status](https://travis-ci.org/hackclub/banner.svg?branch=master)](https://travis-ci.org/hackclub/banner)
 
-<img alt="Banner example" width="230px" src="https://hackclub.com/banners/2019.svg">
+![**Demo + docs**](https://hackclub.com/banner)
 
 ## Install
 
