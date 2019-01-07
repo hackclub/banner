@@ -4,8 +4,6 @@
 
 [![npm](https://img.shields.io/npm/v/@hackclub/banner.svg)](https://www.npmjs.com/package/@hackclub/banner) [![Build Status](https://travis-ci.org/hackclub/banner.svg?branch=master)](https://travis-ci.org/hackclub/banner)
 
-[**Demo + docs**](https://hackclub.com/banner)
-
 ## Install
 
 Use npm or yarn as follows:
