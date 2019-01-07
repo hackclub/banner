@@ -1,6 +1,6 @@
 {
   "name": "@hackclub/banner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for adding a Hack Club banner to your site",
   "author": "lachlanjc <lachlan@hackclub.com>",
   "license": "MIT",
