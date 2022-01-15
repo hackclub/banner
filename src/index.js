@@ -13,14 +13,14 @@ const Banner = ({ year = new Date().getFullYear(), style, ...props }) => (
         zIndex: '999',
         ...style
       }}
-      src={`https://hackclub.com/banners/${year}.svg`}
+      src={`https://assets.hackclub.com/banners/${year}.svg`}
       alt="Hack Club"
     />
   </a>
 )
 
 Banner.propTypes = {
-  year: PropTypes.oneOf([2016, 2017, 2018, 2019, 2020, 2021]),
+  year: PropTypes.oneOf([2016, 2017, 2018, 2019, 2020, 2021, 2022]),
   style: PropTypes.object
 }
 
