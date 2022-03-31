@@ -37,7 +37,7 @@ export default () => (
 
 | Prop    | Effect                                                 |
 | ------- | ------------------------------------------------------ |
-| `year`  | Number, one of `2016` to `2021`. Default: current year |
+| `year`  | Number, one of `2016` to `2022`. Default: current year |
 | `style` | Object, for custom styles                              |
 
 ## License
