@@ -35,10 +35,20 @@ export default () => (
 <Banner year={2020} style={{ width: '256px' }} />
 ```
 
-| Prop    | Effect                                                 |
-| ------- | ------------------------------------------------------ |
-| `year`  | Number, one of `2016` to `2022`. Default: current year |
-| `style` | Object, for custom styles                              |
+<table>
+  <tr>
+    <th>Prop</th>
+    <th>Effect</th>
+  </tr>
+  <tr>
+    <td><code>year</code></td>
+    <td>Number, one of <code>2016</code> to <code>2022</code>. Default: current year</td>
+  </tr>
+  <tr>
+    <td><code>style</code></td>
+    <td>Object, for custom styles</td>
+  </tr>
+</table>
 
 ## License
 
