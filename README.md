@@ -42,7 +42,7 @@ export default () => (
   </tr>
   <tr>
     <td><code>year</code></td>
-    <td>Number, one of <code>2016</code> to <code>2022</code>. Default: current year</td>
+    <td>Number, one of <code>2016</code> to <code>2024</code>. Default: current year</td>
   </tr>
   <tr>
     <td><code>style</code></td>
