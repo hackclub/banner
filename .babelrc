@@ -1,4 +1,15 @@
 {
-  "presets": [["@babel/env", { "modules": false }], "@babel/react"],
-  "plugins": ["@babel/transform-runtime"]
+  "presets": [
+    ["@babel/env", { "modules": false }],
+    ["@babel/react", { "runtime": "automatic" }]
+  ],
+  "plugins": ["@babel/transform-runtime"],
+  "env": {
+    "test": {
+      "presets": [
+        ["@babel/env", { "modules": "commonjs" }],
+        ["@babel/react", { "runtime": "automatic" }]
+      ]
+    }
+  }
 }
