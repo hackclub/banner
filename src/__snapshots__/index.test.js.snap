@@ -1,0 +1,3 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`Banner renders Banner properly 1`] = `"<a href="https://hackclub.com/" target="_blank" rel="noopener noreferrer"><img style="width: 230px; position: absolute; top: 10px; left: 0px; border: 0px; z-index: 999;" alt="Hack Club" src="https://assets.hackclub.com/banners/2026.svg"></a>"`;
