@@ -1,5 +1,5 @@
 const Banner = ({ year = new Date().getFullYear(), style, ...props }) => (
-  <a href="https://hackclub.com/" target="_blank" {...props}>
+  <a href="https://hackclub.com/" target="_blank" rel="noopener" {...props}>
     <img
       style={{
         width: '230px',
