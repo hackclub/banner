@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Banner is valid 1`] = `
+exports[`Banner renders Banner properly 1`] = `
 <a
   href="https://hackclub.com/"
-  rel="noopener"
+  rel="noopener noreferrer"
   target="_blank"
 >
   <img
