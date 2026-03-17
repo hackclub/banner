@@ -2,7 +2,7 @@
 
 > React component for adding a [Hack Club](https://hackclub.com) banner to your club site
 
-[![npm](https://img.shields.io/npm/v/@hackclub/banner.svg)](https://www.npmjs.com/package/@hackclub/banner) [![Build Status](https://travis-ci.org/hackclub/banner.svg?branch=master)](https://travis-ci.org/hackclub/banner)
+[![npm](https://img.shields.io/npm/v/@hackclub/banner.svg)](https://www.npmjs.com/package/@hackclub/banner) [![CI](https://github.com/hackclub/banner/actions/workflows/ci.yml/badge.svg)](https://github.com/hackclub/banner/actions/workflows/ci.yml)
 
 ## Install
 
@@ -18,7 +18,6 @@ yarn add @hackclub/banner
 Place `<Banner />` anywhere on your club site homepage.
 
 ```jsx
-import React from 'react'
 import Banner from '@hackclub/banner'
 
 export default () => (
@@ -42,7 +41,7 @@ export default () => (
   </tr>
   <tr>
     <td><code>year</code></td>
-    <td>Number, one of <code>2016</code> to <code>2024</code>. Default: current year</td>
+    <td>Number. Default: current year</td>
   </tr>
   <tr>
     <td><code>style</code></td>
