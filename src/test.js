@@ -4,7 +4,7 @@ import Banner from './'
 describe('Banner', () => {
   it('is valid', () => {
     expect(Banner).toBeTruthy()
-    const { container } = render(<Banner year={2019} />)
+    const { container } = render(<Banner year={2026} />)
     expect(container.firstChild).toMatchSnapshot()
   })
 })
