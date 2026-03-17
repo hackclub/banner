@@ -1,12 +1,10 @@
-import React from 'react'
+import { render } from '@testing-library/react'
 import Banner from './'
-import renderer from 'react-test-renderer'
 
 describe('Banner', () => {
   it('is valid', () => {
     expect(Banner).toBeTruthy()
-    const component = renderer.create(<Banner year={2019} />)
-    const tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    const { container } = render(<Banner year={2019} />)
+    expect(container.firstChild).toMatchSnapshot()
   })
 })

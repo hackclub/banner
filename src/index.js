@@ -1,6 +1,3 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
 const Banner = ({ year = new Date().getFullYear(), style, ...props }) => (
   <a href="https://hackclub.com/" target="_blank" {...props}>
     <img
@@ -18,10 +15,5 @@ const Banner = ({ year = new Date().getFullYear(), style, ...props }) => (
     />
   </a>
 )
-
-Banner.propTypes = {
-  year: PropTypes.oneOf([2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]),
-  style: PropTypes.object
-}
 
 export default Banner
