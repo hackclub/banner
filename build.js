@@ -1,19 +1,21 @@
 import pkg from './package.json'
 
-await Bun.build({
+const shared = {
   entrypoints: ['./src/index.js'],
   outdir: './dist',
   external: Object.keys(pkg.peerDependencies),
   sourcemap: 'linked',
+  define: { 'process.env.NODE_ENV': '"production"' },
+}
+
+await Bun.build({
+  ...shared,
   naming: 'index.js',
   format: 'esm',
 })
 
 await Bun.build({
-  entrypoints: ['./src/index.js'],
-  outdir: './dist',
-  external: Object.keys(pkg.peerDependencies),
-  sourcemap: 'linked',
+  ...shared,
   naming: 'index.cjs',
   format: 'cjs',
 })
